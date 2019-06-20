@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 board = np.zeros((100, 500), np.uint8)
 board[:] = 255
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('D:/Learning/Projects/GazeControlledKeyboard/shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 font = cv2.FONT_HERSHEY_PLAIN
 
 # Keyboard Settings
